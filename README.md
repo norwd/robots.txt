@@ -49,10 +49,16 @@ file on-the-fly.
 
 A note about contributing: updates should be added/made to `robots.json`. A GitHub action will then generate the updated `robots.txt`, `table-of-bot-metrics.md`, `.htaccess` and `nginx-block-ai-bots.conf`.
 
-You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3 and issuing:
+You can run the tests by [installing](https://www.python.org/about/gettingstarted/) Python 3, installing the dependencies:
+```console
+pip install -r requirements.txt
+```
+and then issuing:
 ```console
 code/tests.py
 ```
+
+The `.editorconfig` file provides standard editor options for this project. See [EditorConfig](https://editorconfig.org/) for more information.
 
 ## Releasing
 
@@ -97,3 +103,5 @@ But even if you don't use Cloudflare's hard block, their list of [verified bots]
 - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman
 - [Blocking AI web crawlers](https://underlap.org/blocking-ai-web-crawlers) by Glyn Normington
 - [Block AI Bots from Crawling Websites Using Robots.txt](https://originality.ai/ai-bot-blocking) by Jonathan Gillham, Originality.AI
+
+
