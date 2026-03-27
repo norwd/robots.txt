@@ -15,6 +15,7 @@ ApifyBot
 ApifyWebsiteContentCrawler
 Applebot
 Applebot-Extended
+Aranet-SearchBot
 atlassian-bot
 Awario
 AzureAI-SearchBot
@@ -54,6 +55,7 @@ Factset_spyderbot
 FirecrawlAgent
 FriendlyCrawler
 Gemini-Deep-Research
+Google-Agent
 Google-CloudVertexBot
 Google-Extended
 Google-Firebase
